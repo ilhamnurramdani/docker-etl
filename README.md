@@ -15,7 +15,7 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 1. Klon repository ini:
 
     ```bash
-    git clone https://github.com/username_anda/nama_repository_anda.git
+    git clone https://github.com/ilhamnurramdani/docker-etl.git
     cd nama_repository_anda
     ```
 
