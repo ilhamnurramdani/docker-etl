@@ -59,7 +59,6 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 
 
 ## Test
-- ini test
-- asdsa
-- asd
-  -asdasdsad
+1. asdasd :
+   -asdasd
+   -wsdwdsad
