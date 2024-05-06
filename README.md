@@ -9,6 +9,8 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 - PostgreSQL 15
 - Pandas 2.2.2
 - NumPy 1.26.4
+- random
+- sqlalchemy
 
 ## Instalasi
 
@@ -36,8 +38,18 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
     ```
 
 ## Penggunaan
+1. buat table data_karyawan :
+   ```bash
+   CREATE TABLE IF NOT EXISTS data_karyawan (
+        nama VARCHAR(255),
+        usia INT,
+        pekerjaan VARCHAR(255),
+        asal_kota VARCHAR(255)
+    )
+   ```
+2. Buat Data Dummy data_karyawan dengan menjalankan file : `create_data_dummy.py`
 
-1. Jalankan skrip Python:
+4. Jalankan skrip Python:
 
     ```bash
     python app.py
@@ -47,7 +59,7 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 
 - **Ekstrak**: Data acak dibuat menggunakan library `random` dan `numpy` Python dan disimpan dalam DataFrame Pandas.
 - **Transformasi**: Data dalam DataFrame ditransformasi dengan menambahkan kolom untuk provinsi (`provinsi`) dan gaji (`gaji`).
-- **Muat**: Data yang telah ditransformasi dimuat ke dalam tabel database PostgreSQL yang bernama `etl_transform`.
+- **Load**: Data yang telah ditransformasi dimuat ke dalam tabel database PostgreSQL yang bernama `data_karyawan_transform`.
 
 ## Struktur Berkas
 
