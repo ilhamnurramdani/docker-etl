@@ -67,4 +67,7 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 - `create_data_dummy.py` : Berisi skrip python untuk membuat data dummy
 - `requirements.txt`: Daftar dependensi Python.
 - `docker-compose.yml`: Berkas Docker Compose untuk menyiapkan PostgreSQL.
+- `Dockerfile`
+- `create_table.sql` : query untuk membuat table
+- `.env` : mengatur variabel untuk postgres
 - `README.md`: Berkas ini.
