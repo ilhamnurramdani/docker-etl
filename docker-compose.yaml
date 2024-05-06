@@ -1,0 +1,18 @@
+services:
+  postgres:
+    container_name: postgres-docker
+    hostname: postgres
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+      POSTGRES_DB: ${PG_DB}
+    ports:
+      - "5434:5432"
+    volumes:
+      - my_postgres_data:/var/lib/postgresql/data
+      - ${PWD}/fs/volumes/postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
+volumes:
+  my_postgres_data:
